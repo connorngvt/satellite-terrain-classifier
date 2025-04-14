@@ -11,7 +11,6 @@ data_cat = ['cloudy', 'desert', 'green_area', 'water']
 
 img_width = 180
 img_height = 180
-image = 'Cloudy_Test.jpg'
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
