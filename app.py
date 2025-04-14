@@ -5,6 +5,8 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
+st.header('Satellite Image Terrain Classification Model')
+
 model = load_model('Satellite_Image_Classify.keras')
 
 data_cat = ['cloudy', 'desert', 'green_area', 'water']
